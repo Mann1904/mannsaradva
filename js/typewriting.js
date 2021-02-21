@@ -5,7 +5,7 @@ var title_typewriter = new Typewriter(typing_title, {
     cursor:""
 });
 
-var title_text = "PARAS VARSHNEY"
+var title_text = "Mann Saradva"
 title_typewriter.typeString(title_text)
     .callFunction(end_typing_title)
     .start();
@@ -44,20 +44,24 @@ description_typewriter.typeString('Hello World!')
     .pauseFor(1200)
     .deleteAll()
 
-    .typeString("I'm a <strong>Data Scientist at IISc</strong>")
+    .typeString("I'm a <strong>Data Science intern at Petpooja</strong>")
     .pauseFor(1500)
-    .deleteChars(22)
+    .deleteChars(37)
 
-    .typeString("<strong>Global Data Science Ambassador @ HP</strong> & <strong>NVIDIA</strong>")
+	.typeString("I'm a <strong>Data Science Enthusiast</strong>")
     .pauseFor(1500)
-    .deleteChars(45)
+    //.deleteChars(45)
 
-    .typeString("<strong>Kaggle Master</strong>")
-    .pauseFor(1500)
-    .deleteChars(15)
+    //.typeString("<strong>Global Data Science Ambassador @ HP</strong> & <strong>NVIDIA</strong>")
+    //.pauseFor(1500)
+    //.deleteChars(45)
 
-    .typeString("an Author @ <strong>Towards Data Science</strong>")
-    .pauseFor(1500)
+    //.typeString("<strong>Kaggle Master</strong>")
+    //.pauseFor(1500)
+    //.deleteChars(15)
+
+    //.typeString("an Author @ <strong>Towards Data Science</strong>")
+    //.pauseFor(1500)
     // .deleteChars(31)
     .deleteAll()
     .start();
