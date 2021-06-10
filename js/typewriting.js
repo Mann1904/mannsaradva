@@ -46,7 +46,7 @@ description_typewriter.typeString('Hello World!')
 
     .typeString("I'm a <strong>Machine Learning Engineer at Petpooja</strong>")
     .pauseFor(1500)
-    .deleteChars(37)
+    .deleteChars(41)
 
 	.typeString("I'm a <strong>Data Science Enthusiast</strong>")
     .pauseFor(1500)
